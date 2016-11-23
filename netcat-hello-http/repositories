@@ -1,0 +1,6 @@
+http://mirrors.aliyun.com/alpine/latest-stable/main
+http://mirrors.aliyun.com/alpine/latest-stable/community
+@edge http://mirrors.aliyun.com/alpine/edge/main
+@community http://mirrors.aliyun.com/alpine/edge/community
+@testing http://mirrors.aliyun.com/alpine/edge/testing
+
