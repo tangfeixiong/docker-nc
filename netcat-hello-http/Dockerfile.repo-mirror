@@ -5,6 +5,7 @@ ADD repositories /etc/apk/
 RUN apk update \
   && apk add --no-cache bash ca-certificates curl libc6-compat netcat-openbsd \
   && rm -rf /var/cache/apk/* \
+  && mkdir -p /tmp/site \
   && echo "<html><head><title>welcome</title></head><body><h1>hello world</h1></body></html>" >> /tmp/site/index.html
 VOLUME /tmp/site
 EXPOSE 80
